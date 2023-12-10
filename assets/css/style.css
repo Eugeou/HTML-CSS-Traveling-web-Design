@@ -11,11 +11,13 @@
     clear: both;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 #main{
 
@@ -23,7 +25,7 @@ html{
 
 #header{
     height: 50px;
-    background-color: rgb(95, 120, 254);
+    background-color: #7484ad;
     top: 0;
     left: 0;
     right: 0;
@@ -69,7 +71,7 @@ html{
 
 
 #nav > li:hover > a {
-    color: rgb(95, 120, 254);
+    color: #7484ad;
     background-color: #fff;
 
 }
@@ -85,7 +87,7 @@ html{
 }
 
 #nav .subnav a {
-    color:  rgb(95, 120, 254);
+    color:  #7484ad;
     padding: 0 12px;
     
 }
@@ -107,7 +109,7 @@ html{
 }
 
 #header .search-btn:hover {
-    background-color: red;
+    background-color: #fc7420;
     cursor: pointer;
 } 
 
@@ -128,7 +130,7 @@ html{
 
 #content{
     height: 1000px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #content .content-section {
@@ -188,6 +190,44 @@ html{
     cursor: pointer;
 }
 
+/* Tour section */
+.tour-section {
+    background-color: rgba(59,67,88,255);
+}
+
+.book-list {
+    background-color: #fff;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.book-list li {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.book-list .sold-out {
+    color: #fff;
+    background-color: #fc7420;
+    padding: 5px 5px;
+    margin-left: 16px;
+    border-radius: 5px;
+}
+
+.book-list .quantity {
+    float: right;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(59,67,88,255);
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -3px;
+
+}
+
 #slider .text-content {
     position: absolute;
     bottom: 30%;
@@ -205,6 +245,7 @@ html{
     font-weight: bold;
     margin-top: 15px;
 }
+
 
 #footer{
 
